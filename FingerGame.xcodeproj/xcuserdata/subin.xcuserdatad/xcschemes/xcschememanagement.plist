@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FingerGame WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>FingerGame.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>40F307641B22D00800B96113</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>40F307821B22D04100B96113</key>
 		<dict>
 			<key>primary</key>
 			<true/>

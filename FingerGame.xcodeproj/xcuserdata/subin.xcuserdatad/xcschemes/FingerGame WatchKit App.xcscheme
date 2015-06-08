@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "40F307821B22D04100B96113"
+               BuildableName = "FingerGame WatchKit App.app"
+               BlueprintName = "FingerGame WatchKit App"
+               ReferencedContainer = "container:FingerGame.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "40F3074F1B22D00800B96113"
                BuildableName = "FingerGame.app"
                BlueprintName = "FingerGame"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "40F307641B22D00800B96113"
-               BuildableName = "FingerGameTests.xctest"
-               BlueprintName = "FingerGameTests"
+               BlueprintIdentifier = "40F307781B22D04100B96113"
+               BuildableName = "FingerGame WatchKit Extension.appex"
+               BlueprintName = "FingerGame WatchKit Extension"
                ReferencedContainer = "container:FingerGame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "40F307641B22D00800B96113"
-               BuildableName = "FingerGameTests.xctest"
-               BlueprintName = "FingerGameTests"
-               ReferencedContainer = "container:FingerGame.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40F3074F1B22D00800B96113"
-            BuildableName = "FingerGame.app"
-            BlueprintName = "FingerGame"
+            BlueprintIdentifier = "40F307821B22D04100B96113"
+            BuildableName = "FingerGame WatchKit App.app"
+            BlueprintName = "FingerGame WatchKit App"
             ReferencedContainer = "container:FingerGame.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/FingerGame">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40F3074F1B22D00800B96113"
-            BuildableName = "FingerGame.app"
-            BlueprintName = "FingerGame"
+            BlueprintIdentifier = "40F307821B22D04100B96113"
+            BuildableName = "FingerGame WatchKit App.app"
+            BlueprintName = "FingerGame WatchKit App"
             ReferencedContainer = "container:FingerGame.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "40F307821B22D04100B96113"
+            BuildableName = "FingerGame WatchKit App.app"
+            BlueprintName = "FingerGame WatchKit App"
+            ReferencedContainer = "container:FingerGame.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/FingerGame">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "40F3074F1B22D00800B96113"
-            BuildableName = "FingerGame.app"
-            BlueprintName = "FingerGame"
+            BlueprintIdentifier = "40F307821B22D04100B96113"
+            BuildableName = "FingerGame WatchKit App.app"
+            BlueprintName = "FingerGame WatchKit App"
             ReferencedContainer = "container:FingerGame.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "40F307821B22D04100B96113"
+            BuildableName = "FingerGame WatchKit App.app"
+            BlueprintName = "FingerGame WatchKit App"
+            ReferencedContainer = "container:FingerGame.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

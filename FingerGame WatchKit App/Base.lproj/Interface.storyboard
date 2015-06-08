@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--猜拳拳-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="game" title="猜拳拳" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="FingerGame_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="0.14999999999999999" alignment="left" id="Paa-FK-a34">
+                            <items>
+                                <label alignment="left" text="胜:0" id="RbA-bV-c1Z"/>
+                                <label alignment="right" text="负:0" id="RLk-l0-903"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.65000000000000002" alignment="left" id="5yj-9a-oZc">
+                            <items>
+                                <imageView width="1" height="1" alignment="left" image="f" animationDuration="1" id="xh9-El-HVp"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.20000000000000001" alignment="left" spacing="10" id="olg-Al-mGG">
+                            <items>
+                                <button width="30" height="30" alignment="center" backgroundImage="g1" id="fPg-cl-s0w">
+                                    <connections>
+                                        <action selector="onCuiZi" destination="AgC-eL-Hgc" id="gRN-mb-x3W"/>
+                                    </connections>
+                                </button>
+                                <button width="30" height="30" alignment="center" backgroundImage="g2" id="tis-py-HeR">
+                                    <connections>
+                                        <action selector="onJianDao" destination="AgC-eL-Hgc" id="sHv-TQ-S23"/>
+                                    </connections>
+                                </button>
+                                <button width="30" height="30" alignment="center" backgroundImage="g3" id="oi2-f0-zeP">
+                                    <connections>
+                                        <action selector="onBu" destination="AgC-eL-Hgc" id="PBE-j9-ST6"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="labLose" destination="RLk-l0-903" id="8Dr-Gb-v3A"/>
+                        <outlet property="labWin" destination="RbA-bV-c1Z" id="t2r-4O-BL5"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="120" y="410"/>
+        </scene>
+        <!--胜负-->
+        <scene sceneID="8h5-Q4-41x">
+            <objects>
+                <controller identifier="result" title="胜负" id="HaE-Zk-dNE" customClass="ResultController" customModule="FingerGame_WatchKit_Extension">
+                    <items>
+                        <group width="136" height="110" alignment="left" backgroundImage="bgWin" spacing="7" id="SWh-mr-Izt">
+                            <items>
+                                <imageView width="30" height="30" alignment="center" verticalAlignment="center" image="g1" id="ZUk-jE-gvp"/>
+                                <label alignment="center" verticalAlignment="center" text="你赢了" id="bVS-0f-KTl"/>
+                                <imageView width="30" height="30" alignment="center" verticalAlignment="center" image="g2" id="lEE-41-eWv"/>
+                            </items>
+                        </group>
+                        <button width="101" height="33" alignment="center" verticalAlignment="center" title="再来一次" id="KZN-0f-JmC">
+                            <connections>
+                                <action selector="onReStart" destination="HaE-Zk-dNE" id="i4o-e6-Ec6"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="bg" destination="SWh-mr-Izt" id="Oqw-Qc-Amk"/>
+                        <outlet property="imgC" destination="lEE-41-eWv" id="PRR-TI-kI8"/>
+                        <outlet property="imgM" destination="ZUk-jE-gvp" id="fLw-Ju-zZ7"/>
+                        <outlet property="labResult" destination="bVS-0f-KTl" id="4Lo-X8-Hz9"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="420" y="410"/>
+        </scene>
+    </scenes>
+</document>
